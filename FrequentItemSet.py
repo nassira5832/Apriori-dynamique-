@@ -137,7 +137,7 @@ def visualize_association_rules(associations):
     plt.show()
 
 def main():
-    filepath = "DATASET2.csv"
+    filepath = "cancer patient data sets corrigee.csv"
     minconf = 0.5
     
     generateData(filepath)
